@@ -12,12 +12,36 @@ $ npm install monaco-editor ngx-monaco --save
 
 Add the following lines to the app `assets` array in `angular.json`.
 
-```json
+Look for:
+```
+"assets": [
+	"src/favicon.ico",
+	"src/assets"
+],
+```
+And Add this:
+
+```
 {
 	"glob": "**/*",
 	"input": "./node_modules/monaco-editor/min/vs",
 	"output": "libs/vs"
 }
+```
+
+Should look like this:
+
+```
+"assets": [
+              {
+                "glob": "**/*",
+                "input": "./node_modules/monaco-editor/min/vs",
+                "output": "libs/vs"
+              },
+              "src/favicon.ico",
+              "src/assets"
+            ],
+
 ```
 
 Because of some technical reasons, it's not possible to package the `monaco-editor` together with all the other packages. This module will dynamically load and instantiate the monaco editor.
