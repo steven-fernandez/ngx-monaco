@@ -2,8 +2,6 @@
 
 > [Monaco Editor](https://github.com/Microsoft/monaco-editor) for Angular
 
-You can easily run the [example](example) locally.
-
 ## Install (Angular 2 to 7)
 
 ```
