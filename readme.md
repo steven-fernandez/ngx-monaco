@@ -7,7 +7,7 @@ You can easily run the [example](example) locally.
 ## Install
 
 ```
-$ npm install monaco-editor ngx-monaco
+$ npm install monaco-editor ngx-monaco --save
 ```
 
 > Note: The `monaco-editor` package is a peer dependency of this package.
