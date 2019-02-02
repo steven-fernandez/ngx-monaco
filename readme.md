@@ -8,8 +8,6 @@
 $ npm install monaco-editor ngx-monaco --save
 ```
 
-> Note: The `monaco-editor` package is a peer dependency of this package.
-
 ### angular.json
 
 Add the following lines to the app `assets` array in `angular.json`.
