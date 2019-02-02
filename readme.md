@@ -1,6 +1,6 @@
 # ngx-monaco
 
-> [Monaco Editor](https://github.com/Microsoft/monaco-editor) for Angular (2 to 7)
+> [Monaco Editor](https://github.com/Microsoft/monaco-editor) for Angular (Tested on Angular 7)
 
 ## Install
 
