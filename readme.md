@@ -4,7 +4,7 @@
 
 You can easily run the [example](example) locally.
 
-## Install
+## Install (Angular 2 to 7)
 
 ```
 $ npm install monaco-editor ngx-monaco --save
