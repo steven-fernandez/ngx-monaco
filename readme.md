@@ -42,7 +42,7 @@ import { MonacoEditorModule } from 'ngx-monaco';
 	],
 	imports: [
 		BrowserModule,
-		MonacoEditorModule.forRoot()
+		MonacoEditorModule.forRoot() // use forRoot() in main app module only.
 	],
 	bootstrap: [AppComponent]
 })
